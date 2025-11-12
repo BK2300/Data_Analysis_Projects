@@ -16,13 +16,13 @@ print(df.info()) #Datatypes used (We could also just have used this instead. To 
 # How many null values do we have?
 print(df.isnull().sum()) #only a single person answered 0 in age
 # Lets change the value to 0, instead of been empty
-# df['age'] = df['age'].str.replace("",'0')
+df['Age'] = df['Age'].replace(" ", 0)
 
         ### Statistics ###
 # we only have Age as a discrete variable
 print(df.describe())
 
-
+"""
         ### EDA ###
 print('Summary statistics for numeric columns:')
 print(df.describe())
@@ -57,6 +57,21 @@ if numeric_df.shape[1] >= 4:
     sns.pairplot(numeric_df)
     plt.suptitle('Pair Plot for Numeric Columns', y=1.02)
     plt.show()
+"""
+
+print(sns.boxplot(x='Gender', y='Depression', data=df))
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
