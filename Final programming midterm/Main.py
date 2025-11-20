@@ -1,9 +1,8 @@
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 df = pd.read_csv("energy.csv")
 
+    # Supplychain
 #Starting out with finding out some information about our dataframe and their datatypes:
     # we have 91250 rows/entries
     # we have 15 columns
