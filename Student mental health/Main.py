@@ -65,7 +65,8 @@ print(sns.boxplot(x='Gender', y='Depression', data=df))
 
 
 
-
+print(f"say hi\t")
+print(f"say bye")
 
 
 
