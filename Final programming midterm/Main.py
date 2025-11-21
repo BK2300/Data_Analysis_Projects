@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("energy.csv")
+df = pd.read_csv("supply_chain_dataset1.csv")
 
     # Supplychain
 #Starting out with finding out some information about our dataframe and their datatypes:
