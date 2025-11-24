@@ -1,2 +1,27 @@
+Project status: Done
+
+This was my first every data analysis project by myself from scratch.
+With a minimal assistance of AI.
+
+* About dataset
 This is a dataset of the first 151 pokemon, from the first season.
-Thought it just look funny to revisit and experiement with, now that ive learned something new stuff
+Thought it just look funny to revisit and experiment with, now that i've learned something new stuff.
+The dataset did not have any data cleaning necessarily needed
+
+* Methodology
+Ive started out importing the dataset and doing some Exploratory analysis.
+I wanted the to know all the column names and which ones was categorical and numerical.
+I did some statistics of the numerical (Weight and Height) and made some assumptions based on the numbers i could see.
+
+* Visualization
+Most of the time. If i work with some numerical datasets, do i start out with a correlation plot. Since it helps me get inspired what to look for.
+Then after i made some histograms to see the distribution of pokemons primary type.
+Then some histogram of Weight class and Height, which confirmed my suspicion of outlier.
+And another correlation heatmap of which pokemon Type1 and type2, had the biggest procentage correlation.
+
+* Business decision
+If I had this dataset and should make a decision based on the dataset. Would i say:
+- Since the primary pokemon type are Water, Fire and Grass. They should focus a bit less on water types. Since they constitutes 18,54% of all the primary pokemon types
+- Ice and Dragon could be more focused on. They have their own niche constitues of only 1,32% each of all the pokemons
+- they could play around with some more primary and secondary types abit more. Like a chilitable, mixing and matching.
+

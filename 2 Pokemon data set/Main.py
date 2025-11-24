@@ -6,9 +6,10 @@ df = pd.read_csv("pokemonData.csv")
 
 #Data cleaning. Lets fill out the missing values with none
 df["Type2"] = df["Type2"].fillna("None")
-
+del df["Legendary"]
 
 print(f"The Number of Rows = {df.shape[0]}, \n and columns = {df.shape[1]}.\n")
+print(df.head(10))
 print(df.columns, "\n")  # Overview of the Columns (Variables)
 print(df.info())
 print()
@@ -33,7 +34,8 @@ plt.show()
 
 Height = df["Height"]
 Weight = df["Weight"]
-"""plt.hist(Weight,bins=50, #"bins" is the number of bars(bins) in our histogram
+
+plt.hist(Weight,bins=50, #"bins" is the number of bars(bins) in our histogram
                 color="orange",
                 edgecolor="Navy") #by degault, we dont have any colors and it looks like a big blob
 plt.title("Pokemon Weight distribution")
@@ -47,7 +49,7 @@ plt.title("Pokemon Height distribution")
 plt.xlabel("Height Count")
 plt.ylabel("number of Pokemon")
 #This confirmed my assumtion with there been some outliers, which ive could have removed. But didnt
-
+"""
 # Histogram counting the amount of type1 pokemon in order
 plt.figure(figsize=(10, 6))
 
