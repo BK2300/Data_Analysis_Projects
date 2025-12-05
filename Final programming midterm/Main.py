@@ -7,11 +7,15 @@ df = pd.read_csv("supply_chain_dataset1.csv")
     # we have 91250 rows/entries
     # we have 15 columns
         #There is 3 floats. 7 int. 5 categorical datatypes.
+
 print(df.head())
+
+"""
+
 print(df.info())
 print(df.isnull().sum())
 print(df.describe())
-
+"""
 
 
 
