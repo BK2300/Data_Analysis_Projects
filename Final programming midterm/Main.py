@@ -1,4 +1,5 @@
 import pandas as pd
+import plotly_express as px
 
 df = pd.read_csv("supply_chain_dataset1.csv")
 
