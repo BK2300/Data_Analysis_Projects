@@ -1,9 +1,22 @@
 import pandas as pd
+import dash
+from dash import dcc, html, Input, Output
+import dash_bootstrap_components as dbc
+import Data_modelling as dm
+
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
 
+# Load the dataset
 df = pd.read_csv("netflix_titles.csv")
+
+# Clean & Prepare the data
+
+
+
+
+
+
 
 
 print(f"The Number of Rows = {df.shape[0]}, \n and columns = {df.shape[1]}.\n")
