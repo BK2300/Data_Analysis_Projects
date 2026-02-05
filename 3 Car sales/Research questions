@@ -1,0 +1,12 @@
+
+RQ1: Er der bestemte alders- eller kilometer-punkter, hvor prisen falder markant hurtigere (change points)?
+RQ2: Hvor meget koster +10.000 km i pris, når vi kontrollerer for årgang (og evt. brand/fuel)?
+RQ3: Er “Electric/Hybrid premium” stadig der, når vi sammenligner biler med samme årgang og kilometer? Og gælder det også Automatic vs Manual?
+RQ4: Hvilke brands/modeller er systematisk dyrere/billigere end forventet givet årgang, km, motor, fuel og gear?
+RQ5: Har Owner_Count en selvstændig effekt på pris, når vi kontrollerer for km og årgang? Og ændrer det sig med bilens alder?
+
+
+
+
+
+
